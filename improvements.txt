@@ -1,0 +1,6 @@
+Use Snowpipe to do automatic data loading
+Load data into raw tables and possible do some QA first (e.g. check data hasnt been resupplied)
+ELT to do data pipeline processing. (e.g. Raw tables ----> Json --->table---> QA----> Warehouse table)
+View need added metrics (e.g. dates and possibly more --see view comments)
+No way of purging or replace dataset (mechanism needed - e.g. GDPR)
+Automatic emailing or report or to let Data science team new data is available
